@@ -3,6 +3,7 @@
   function divit(func) {
     const newPre = document.createElement("pre");
     newPre.innerHTML = func.toString();
+    return newPre;
   }
 </script>
 
