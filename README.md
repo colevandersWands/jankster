@@ -20,7 +20,7 @@ inosdf
   function cise() {
     "hoy there"
   };
-  document.getElementById(exer).appendChild(divit(cise));
+  document.getElementById(exer).appendChild(divit(cise, "exer"));
   console.log("huh")
 </script>
 
