@@ -1,6 +1,6 @@
 
 <script>
-  function divit(func, root) {
+  function divit(func) {
     const newPre = document.createElement("pre");
     newPre.innerHTML = func.toString();
   }
@@ -20,7 +20,7 @@ inosdf
   function cise() {
     "hoy there"
   };
-  document.getElementById(exer).appendChild(divit(cise, "exer"));
+  document.getElementById("exer").appendChild(divit(cise));
   console.log("huh")
 </script>
 
