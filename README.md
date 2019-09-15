@@ -21,6 +21,7 @@ inosdf
     "hoy there"
   };
   document.getElementById(exer).appendChild(divit(cise));
+  console.log("huh")
 </script>
 
 ---
