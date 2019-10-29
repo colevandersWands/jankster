@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 4,
+    "passes": 2,
+    "pending": 0,
+    "failures": 2,
+    "start": "2019-10-29T10:04:01.097Z",
+    "end": "2019-10-29T10:04:01.102Z",
+    "duration": 5
+  },
+  "tests": [
+    {
+      "title": "should return expected string",
+      "fullTitle": "Programmatic usage suite #index should return expected string",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should fail",
+      "fullTitle": "Programmatic usage suite #index should fail",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: 'programmatic example' == 'programmaticexample'\n    at Context.<anonymous> (tests/simple.spec.js:10:7)\n    at processImmediate (internal/timers.js:439:21)",
+        "message": "'programmatic example' == 'programmaticexample'",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": "programmatic example",
+        "expected": "programmaticexample",
+        "operator": "=="
+      }
+    },
+    {
+      "title": "should return expected string",
+      "fullTitle": "Programmatic usage suite #index should return expected string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should fail",
+      "fullTitle": "Programmatic usage suite #index should fail",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: 'programmatic example' == 'programmaticexample'\n    at Context.<anonymous> (tests/simple.spec.js:16:7)\n    at processImmediate (internal/timers.js:439:21)",
+        "message": "'programmatic example' == 'programmaticexample'",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": "programmatic example",
+        "expected": "programmaticexample",
+        "operator": "=="
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should fail",
+      "fullTitle": "Programmatic usage suite #index should fail",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: 'programmatic example' == 'programmaticexample'\n    at Context.<anonymous> (tests/simple.spec.js:10:7)\n    at processImmediate (internal/timers.js:439:21)",
+        "message": "'programmatic example' == 'programmaticexample'",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": "programmatic example",
+        "expected": "programmaticexample",
+        "operator": "=="
+      }
+    },
+    {
+      "title": "should fail",
+      "fullTitle": "Programmatic usage suite #index should fail",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: 'programmatic example' == 'programmaticexample'\n    at Context.<anonymous> (tests/simple.spec.js:16:7)\n    at processImmediate (internal/timers.js:439:21)",
+        "message": "'programmatic example' == 'programmaticexample'",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": "programmatic example",
+        "expected": "programmaticexample",
+        "operator": "=="
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return expected string",
+      "fullTitle": "Programmatic usage suite #index should return expected string",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return expected string",
+      "fullTitle": "Programmatic usage suite #index should return expected string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
